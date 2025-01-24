@@ -1,6 +1,20 @@
 let nome = document.querySelector('h1');
 nome.textContent = 'Leonel Pereira de Almeida';
 
+let social1 = document.getElementById('social1');
+let linkSocial1 = document.createElement('a');
+linkSocial1.href = 'https://www.linkedin.com/in/leonel-almeida-240228229/';
+linkSocial1.textContent = 'LinkedIn \u{1F517}';
+linkSocial1.target = '_blank';
+social1.appendChild(linkSocial1);
+
+let social2 = document.getElementById('social2');
+let linkSocial2 = document.createElement('a');
+linkSocial2.href = 'https://github.com/Leonel-p-a';
+linkSocial2.textContent = 'GitHub \u{1F517}';
+linkSocial2.target = '_blank';
+social2.appendChild(linkSocial2);
+
 let telefone = document.getElementById('telefone');
 telefone.textContent = '(21) 97615-7347';
 
@@ -8,11 +22,11 @@ let email = document.getElementById('email');
 email.textContent = 'leonelalmeida.10.la@gmail.com';
 
 let endereco = document.getElementById('endereco');
-let link = document.createElement('a');
-link.href = 'https://www.google.com.br/maps/place/R.+Alzira+Brand%C3%A3o+-+Tijuca,+Rio+de+Janeiro+-+RJ,+20550-035/@-22.9220775,-43.2272582,17z/data=!3m1!4b1!4m6!3m5!1s0x997e45bba185ef:0x376aa87a9a9e1138!8m2!3d-22.9221873!4d-43.2247729!16s%2Fg%2F11c0r59ysg?entry=ttu&g_ep=EgoyMDI1MDEyMC4wIKXMDSoASAFQAw%3D%3D';
-link.textContent = 'Rio de Janeiro - RJ - 20550-035';
-link.target = '_blank';
-endereco.appendChild(link);
+let linkEndereco = document.createElement('a');
+linkEndereco.href = 'https://www.google.com.br/maps/place/R.+Alzira+Brand%C3%A3o+-+Tijuca,+Rio+de+Janeiro+-+RJ,+20550-035/@-22.9220775,-43.2272582,17z/data=!3m1!4b1!4m6!3m5!1s0x997e45bba18';
+linkEndereco.textContent = 'Rio de Janeiro - RJ - 20550-035';
+linkEndereco.target = '_blank';
+endereco.appendChild(linkEndereco);
 
 let tituloSobre = document.getElementById('tituloSobre');
 tituloSobre.textContent = 'Resumo';
@@ -55,3 +69,12 @@ habilidade4.textContent = 'Git';
 
 let habilidade5 = document.getElementById('habilidade5');
 habilidade5.textContent = 'GitHub';
+
+let tituloIdiomas = document.getElementById('tituloIdiomas');
+tituloIdiomas.textContent = 'Idiomas'
+
+let idiomaPortugues = document.getElementById('idiomaPortugues');
+idiomaPortugues.textContent = 'Português - Nativo'
+
+let idiomaIngles = document.getElementById('idiomaIngles');
+idiomaIngles.textContent = 'Inglês - C1'
