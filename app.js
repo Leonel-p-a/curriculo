@@ -41,16 +41,16 @@ let ensinoMedio = document.getElementById('ensinoMedio');
 ensinoMedio.textContent = 'Ensino Médio Completo';
 
 let ensinoSuperior = document.getElementById('ensinoSuperior');
-ensinoSuperior.textContent = 'Ensino Superior Cursando (Ciência da Computação)';
+ensinoSuperior.textContent = 'Ensino Superior Cursando (Ciência da Computação - Universidade Veiga de Almeida - 2025 - 2028)';
 
 let tituloExperiencia = document.getElementById('tituloExperiencia');
 tituloExperiencia.textContent = 'Experiência';
 
 let experiencia1 = document.getElementById('experiencia1');
-experiencia1.textContent = 'Jovem Aprendiz Administrativo - Hospital Pró-Cardíaco';
+experiencia1.textContent = 'Analista de Sinistro - Falcão Serviços Administrativos - 02/2022 - 10/2024';
 
 let experiencia2 = document.getElementById('experiencia2');
-experiencia2.textContent = 'Analista de Sinistro - Falcão Serviços Administrativos';
+experiencia2.textContent = 'Jovem Aprendiz Administrativo - Hospital Pró-Cardíaco - 09/2018 - 10/2019';
 
 let tituloHabilidades = document.getElementById('tituloHabilidades');
 tituloHabilidades.textContent = 'Habilidades';
@@ -77,4 +77,8 @@ let idiomaPortugues = document.getElementById('idiomaPortugues');
 idiomaPortugues.textContent = 'Português - Nativo'
 
 let idiomaIngles = document.getElementById('idiomaIngles');
-idiomaIngles.textContent = 'Inglês - C1'
+let englishProciciencyLink = document.createElement('a');
+englishProciciencyLink.href = 'https://cert.efset.org/SGhRRP';
+englishProciciencyLink.textContent = 'Inglês - C1 \u{1F517}';
+englishProciciencyLink.target = '_blank';
+idiomaIngles.appendChild(englishProciciencyLink)

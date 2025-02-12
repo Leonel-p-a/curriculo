@@ -108,6 +108,15 @@ section > ul > li {
     line-height: 25px;
 }
 
+section ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+section ul li a:hover {
+    color: gray;
+}
+
 hr {
     width: 90%;
     margin: 20px;
