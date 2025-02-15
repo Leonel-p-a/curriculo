@@ -77,8 +77,8 @@ let idiomaPortugues = document.getElementById('idiomaPortugues');
 idiomaPortugues.textContent = 'Português - Nativo'
 
 let idiomaIngles = document.getElementById('idiomaIngles');
-let englishProciciencyLink = document.createElement('a');
-englishProciciencyLink.href = 'https://cert.efset.org/SGhRRP';
-englishProciciencyLink.textContent = 'Inglês - C1 \u{1F517}';
-englishProciciencyLink.target = '_blank';
-idiomaIngles.appendChild(englishProciciencyLink)
+let englishProficiencyLink = document.createElement('a');
+englishProficiencyLink.href = 'https://cert.efset.org/SGhRRP';
+englishProficiencyLink.textContent = 'Inglês - C1 \u{1F517}';
+englishProficiencyLink.target = '_blank';
+idiomaIngles.appendChild(englishProficiencyLink)
